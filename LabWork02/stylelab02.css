@@ -1,0 +1,19 @@
+h1{
+  color:#dc143c;
+  text-shadow:black 10px 20px 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 96px;
+  text-align: center;
+}
+
+p{
+  color: black;
+  text-shadow: blueviolet 4px 6px 3px;
+}
+
+p1{
+  color:green;
+  text-shadow:1px 1px 2px yellow, 0 0 1em #006400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}

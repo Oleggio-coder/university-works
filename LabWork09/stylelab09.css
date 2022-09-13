@@ -1,0 +1,35 @@
+.body{
+  background-color: rgba(234, 250, 166, 0.3);
+}
+
+.p1{
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.p2{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.in{
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.but{
+  background-color: lightgreen;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  height: 30px;
+  width: 120px;
+}
+

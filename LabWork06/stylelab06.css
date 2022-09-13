@@ -1,0 +1,33 @@
+.body{
+  background-image: url(Background.png);
+  background-attachment: fixed;
+}
+
+.img1{
+  height: 216px;
+  width: 384px;
+  display: block;
+  border: 20px groove turquoise;
+}
+
+.img2{
+  height: 180px;
+  width: 320px;
+  display: block;
+}
+
+.box{
+  background-color: beige;
+  position: relative;
+  overflow: hidden;
+  width: 384px;
+  height: 216px;
+}
+
+.box img{
+  position: absolute;
+  object-fit: cover;
+  top: -50%;
+  left: 50%;
+}
+

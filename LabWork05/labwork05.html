@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seredenko LabWork05</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="stylelab05.css">
+</head>
+<style>
+  td, th{
+    padding: 10px;
+    text-align: center;
+    border: 4px black solid;
+    border-top: outset thin turquoise;
+  }
+</style>
+<body>
+  <table class="table">
+    <td style = "background-color: lightgrey">&nbsp;</td>
+    <th>Первый столбец</th>
+    <th>Второй столбец</th>
+    <th>Третий столбец</th>
+    <th>Четвёртый столбец</th>
+    <th>Пятый столбец</th>
+    <th>Шестой столбец</th>
+    <th>Седьмой столбец</th>
+    <th>Восьмой столбец</th>
+    <tr>
+      <th>Первая строка</th>
+      <td class="lg1">1.1</td>
+      <td>1.2</td>
+      <td>1.3</td>
+      <td>1.4</td>
+      <td>1.5</td>
+      <td>1.6</td>
+      <td class="rc1">1.7</td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <th>Вторая строка</th>
+      <td>2.1</td>
+      <td>2.2</td>
+      <td>2.3</td>
+      <td class="rg1">2.4</td>
+      <td>2.5</td>
+      <td rowspan="6">2.6 - 7.6</td>
+      <td>2.7</td>
+      <td>2.8</td>
+    </tr>
+    <tr>
+      <th>Третья строка</th>
+      <td class="lg2">3.1</td>
+      <td>3.2</td>
+      <td>3.3</td>
+      <td>3.4</td>
+      <td>3.5</td>
+      <td class="rc2">3.7</td>
+      <td>3.8</td>
+      <!-- <td>3.8</td> -->
+    </tr>
+    <tr>
+      <th>Четвёртая строка</th>
+      <td>4.1</td>
+      <td>4.2</td>
+      <td>4.3</td>
+      <td class="rg2">4.4</td>
+      <td>4.5</td>
+      <td>4.7</td>
+      <td>4.8</td>
+      <!-- <td>4.8</td> -->
+    </tr>
+    <tr>
+      <th>Пятая строка</th>
+      <td class="lg3">5.1</td>
+      <td>5.2</td>
+      <td>5.3</td>
+      <td>5.4</td>
+      <td>5.5</td>
+      <td class="rc3">5.7</td>
+      <td>5.8</td>
+      <!-- <td>5.8</td> -->
+    </tr>
+    <tr>
+      <th>Шестая строка</th>
+      <td>6.1</td>
+      <td>6.2</td>
+      <td>6.3</td>
+      <td class="rg3">6.4</td>
+      <td>6.5</td>
+      <td>6.7</td>
+      <td>6.8</td>
+      <!-- <td>6.8</td> -->
+    </tr>
+    <tr>
+      <th>Седьмая строка</th>
+      <td class="lg4">7.1</td>
+      <td>7.2</td>
+      <td colspan="4">7.3 - 7.6</td>
+      <td class="rc4">7.7</td>
+      <td>7.8</td>
+      <!-- <td>7.6</td>
+      <td>7.7</td>
+      <td>7.8</td> -->
+    </tr>
+    <tr>
+      <th>Восьмая строка</th>
+      <td>8.1</td>
+      <td>8.2</td>
+      <td>8.3</td>
+      <td>8.4</td>
+      <td>8.5</td>
+      <td>8.6</td>
+      <td>8.7</td>
+      <td>8.8</td>
+    </tr>
+  </table>
+  <p>Таблица размером 8х8 (не считая заголовков)</p>
+  <p>Ячейки 1.1, 3.1, 5.1, 7.1 - Линейный градиент</p>
+  <p>Ячейки 2.4, 4.4, 6.4 - Радиальный градиент</p>
+  <p>Ячейки 1.7, 3.7, 5.7, 7.7 - Произвольный цвет</p>
+  <p>Ячейки 7.3-7.6 и 2.6-7.6 объединенные</p>
+</body>
+</html>

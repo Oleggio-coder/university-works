@@ -1,0 +1,18 @@
+.orderedlist{
+  list-style: none;
+  list-style-type: lower-greek;
+}
+
+.unorderedlist{
+  list-style: none;
+  list-style-type: square;
+}
+
+.symbmarker{
+  list-style: none;
+  list-style-type: '--';
+}
+
+.imgmarker{
+  list-style-image: url(imgmarker.png);
+}

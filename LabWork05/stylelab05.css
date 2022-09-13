@@ -1,0 +1,53 @@
+.table{
+  width: 65%;
+  border-collapse: collapse;
+  table-layout: auto;
+  border-top: outset thin turquoise;
+}
+
+.lg1{
+  background: linear-gradient(#e66465, lightgrey, #9198e5);
+}
+
+.lg2{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.lg3{
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.lg4{
+  background: linear-gradient(yellow, red, aqua, silver);
+}
+
+.rg1{
+  background: radial-gradient(#e66465, lightgrey, #9198e5);
+}
+
+.rg2{
+  background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.rg3{
+  background: radial-gradient(circle at center, red 0, blue, green 100%);
+}
+
+.rc1{
+  background-color: bisque;
+}
+
+.rc2{
+  background-color: crimson;
+}
+
+.rc3{
+  background-color: thistle;
+}
+
+.rc4{
+  background-color: darkkhaki;
+}
+

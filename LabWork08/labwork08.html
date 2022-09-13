@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seredenko LabWork08</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background-color: rgba(123, 45, 201, 0.2);">
+
+  <form method="post" action="">
+
+    <p style="font-weight: bold;">Введите Вашу группу:</p>
+    <input placeholder="Пример: КН-920в">
+
+    <p style="font-weight: bold;">Введите Ваши фамилию и инициалы:</p>
+    <input placeholder="Пример: Иванов И.И.">
+
+    <p style="font-weight: bold; margin-top: 50px;">Выберите вид отправляемых данных:</p>
+    <p><input name="vid" type="radio" value="full">Полный</p>
+    <p><input name="vid" type="radio" value="pressed">Сжатый</p>
+
+    <div style="margin-top: 50px;">
+      <p style="font-weight: bold;">Введите в каждое поле по одному целому или вещественному числу:</p>
+      <input placeholder="Первое число">
+      <input placeholder="Второе число">
+      <input placeholder="Третье число">
+      <input placeholder="Четвёртое число">
+      <input placeholder="Пятое число">
+    </div>
+
+    <div style="margin-top: 20px;">
+
+      <select name="to_numbers">
+        <option value="">Выберите действие</option>
+        <option value="1">Определить максимальное число</option>
+        <option value="2">Определить минимальное число</option>
+        <option value="3">Отсортировать по возрастанию</option>
+      </select>
+
+    </div>
+
+    <input type="reset" value="Очистить форму (сброс всех полей)" style="margin-top: 50px;">
+
+    <div style="margin-top: 30px;">
+      <p style="font-weight: bold;">Отправить данные:</p>
+      <input type="image" src="Send.png">
+    </div>
+
+  </form>
+
+</body>
+</html>
